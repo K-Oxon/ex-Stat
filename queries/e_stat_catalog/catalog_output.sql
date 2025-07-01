@@ -12,8 +12,8 @@ select
     dataset__landing_page,
 from ${estat_catalog_flatten}
 where 1=1
-and ${inputs.resource_dimension}
-and dataset__title__name like '%${inputs.search_dataset_title}%'
-and stats_data__title__name like '%${inputs.search_stats_title}%'
+    and ${inputs.resource_dimension}
+    and dataset__title__name like '%${inputs.search_dataset_title}%'
+    and stats_data__title__name like '%${inputs.search_stats_title}%'
 order by stats_data__title__table_no, stats_data__title__name
 limit 1000
