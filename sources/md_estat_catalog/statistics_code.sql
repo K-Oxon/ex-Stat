@@ -1,0 +1,1 @@
+from estat_api.mrt_estat_catalog.statistics_code

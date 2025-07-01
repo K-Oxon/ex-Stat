@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: md_estat_catalog
+type: motherduck
+options:
+  database: estat_api
