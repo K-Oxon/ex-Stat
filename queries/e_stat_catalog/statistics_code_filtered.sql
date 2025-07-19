@@ -5,7 +5,5 @@ select
     dataset__contact_point as contact_point,
     landing_page
 from statistics_code
-where
-    dataset__stat_name__code like '${inputs.selected_statistics_code.value}'
-    and dataset__stat_name__name like '%${inputs.search_text}%'
+where dataset__stat_name__name like '%${inputs.search_text}%'
 order by statistics_code

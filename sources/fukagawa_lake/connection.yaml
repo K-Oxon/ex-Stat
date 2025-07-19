@@ -1,0 +1,5 @@
+# This file was automatically generated
+name: fukagawa_lake
+type: motherduck
+options:
+  database: fukagawa_lake_dbt

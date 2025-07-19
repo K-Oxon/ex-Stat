@@ -1,0 +1,1 @@
+from fukagawa_lake_dbt.mrt_fukagawa_lake.lake_table_meta
