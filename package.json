@@ -2,7 +2,8 @@
   "name": "ex-stat",
   "version": "0.0.1",
   "scripts": {
-    "build": "EVIDENCE_BUILD_DIR=./build/ex-Stat evidence build",
+    "build": "evidence build",
+    "build:ghp": "EVIDENCE_BUILD_DIR=./build/ex-Stat evidence build",
     "build:strict": "evidence build:strict",
     "dev": "evidence dev --open /",
     "test": "evidence build",

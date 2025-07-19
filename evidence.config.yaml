@@ -3,8 +3,8 @@ appearance:
   switcher: true
 
 # カスタムドメインの時は外す
-deployment:
-  basePath: /ex-Stat
+# deployment:
+#   basePath: /ex-Stat
 
 theme:
   colorPalettes:
